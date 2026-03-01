@@ -1,9 +1,9 @@
-**🐍 Hand-Tracking Snake Game using OpenCV & Python**
+# **🐍 Hand-Tracking Snake Game using OpenCV & Python**
 
 An interactive Snake Game controlled using real-time hand tracking via a webcam.
 The player controls the snake using their index finger, making gameplay intuitive and immersive without keyboard input.
 
-**🚀 Features**
+## **🚀 Features**
 
 🖐 Hand Tracking Control
 
@@ -51,7 +51,7 @@ Screen flash on food collection
 
 Game Over overlay screen
 
-**📈 Level Progression**
+## **📈 Level Progression**
 | Level | New Challenge                 |
 | ----- | ----------------------------- |
 | 1     | Basic snake & food            |
@@ -63,7 +63,7 @@ Game Over overlay screen
 
 🖼️ UI Overlay – Displays score, level, and game over screen.
 
-**🛠️ Tech Stack**
+## **🛠️ Tech Stack**
 
 Python 3.x
 
@@ -82,7 +82,7 @@ NumPy
  – For calculations
 Math & Random Libraries – For movement & collision logic
 
-**📂 Project Structure**
+## **📂 Project Structure**
 
 📁 HandTracking-SnakeGame/
 
@@ -92,7 +92,7 @@ Math & Random Libraries – For movement & collision logic
 
 │── README.md         # Project documentation
 
-**🎮 How to Play**
+## **🎮 How to Play**
 
 ✋ Show your hand to the camera
 
