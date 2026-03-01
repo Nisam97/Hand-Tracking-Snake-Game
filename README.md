@@ -1,29 +1,73 @@
-🐍 Hand-Tracking Snake Game
+**🐍 Hand-Tracking Snake Game using OpenCV & Python**
 
-A modern twist on the classic Snake Game, powered by OpenCV, CVZone, and AI-based Hand Tracking.
-Control the snake using your index finger via a webcam and progress through multiple levels with increasing challenges.
+An interactive Snake Game controlled using real-time hand tracking via a webcam.
+The player controls the snake using their index finger, making gameplay intuitive and immersive without keyboard input.
 
-✨ Features
+**🚀 Features**
 
-🎮 Hand Tracking Control – Play without a keyboard, just move your finger.
+🖐 Hand Tracking Control
 
-🍩 Food Collection – Collect food to grow longer and increase your score.
+Uses webcam & index finger movement
 
-🔄 Smooth Movement – The snake head follows your finger with motion smoothing.
+No keyboard controls for movement
 
-🚀 Level System
+🌈 Rainbow Snake Animation
 
-Level 1–2: Static food with different difficulty.
-Level 3: Food starts moving randomly.
-Level 4+: Obstacles appear on the board.
+Smooth body movement with color transitions
+
+🍩 Dynamic Food System
+
+Static food (early levels)
+
+Moving food in higher levels
+
+⛽ Fuel / Hunger System
+
+Fuel drains over time
+
+Eating food refills fuel
+
+Game over when fuel reaches zero
+
+🚧 Obstacles (Level 4+)
+
+Randomly generated obstacles
+
+Collision leads to game over
+
+🧠 Level-Based Difficulty
+
+Increasing speed & complexity
+
+Smaller food & more challenges
+
+🏆 High Score System
+
+High score saved locally (highscore.txt)
+
+💥 Visual Effects
+
+Screen flash on food collection
+
+Game Over overlay screen
+
+**📈 Level Progression**
+| Level | New Challenge                 |
+| ----- | ----------------------------- |
+| 1     | Basic snake & food            |
+| 2     | Faster movement               |
+| 3     | Moving food                   |
+| 4+    | Obstacles + higher difficulty |
 
 💀 Collision Detection – Game ends if you hit your body or obstacles.
 
 🖼️ UI Overlay – Displays score, level, and game over screen.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Python 3.x
+
+MediaPipe (via cvzone)
 
 OpenCV
 
@@ -38,7 +82,7 @@ NumPy
  – For calculations
 Math & Random Libraries – For movement & collision logic
 
-📂 Project Structure
+**📂 Project Structure**
 
 📁 HandTracking-SnakeGame/
 
@@ -48,10 +92,18 @@ Math & Random Libraries – For movement & collision logic
 
 │── README.md         # Project documentation
 
-🎮 Controls
+**🎮 How to Play**
 
-🖐️ Show your index finger to control the snake.
+✋ Show your hand to the camera
 
-🔄 R – Restart after game over.
+👉 Move your index finger to control the snake
 
-❌ Q – Quit the game.
+🍩 Eat food to grow and gain fuel
+
+🚧 Avoid obstacles and your own body
+
+⛽ Keep an eye on the fuel bar
+
+🔁 Press R to restart after Game Over
+
+❌ Press Q to quit
